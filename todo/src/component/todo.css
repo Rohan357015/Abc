@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(17, 36, 17);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size:30px;
+    margin-top: 60px;
+}
+.container{
+    height: 100%;
+    width: 350px;
+    margin: 5% auto;
+    
+}.input-box{
+    height:100px;
+    width: 100%;
+    /* border: 1px solid #000; */
+    & input{
+        height:40%;
+        width: 65%;
+        border-radius: 20px 0 0 20px;
+        margin: 0;
+        border-right: none;
+        font-size: 1rem;
+        color: #000;
+        border: none;
+        &:focus{
+            outline: none;
+        }
+    }
+    & button{
+        height:40%;
+        width: 33%;  
+        border-radius: 0  20px 20px 0;
+        margin: 0;
+        background-color: rgb(11, 119, 190);
+        font-size: 1rem;
+        color:white;
+        outline: none;
+        border: none;
+       
+    }
+}
+.message{
+    height: 45px;
+    width: 350px;
+    border-radius: 20px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+   
+    /* border: 2px solid black; */
+    
+}
+.message .data{
+   height: 25px;
+   width: 50%;
+   display: block;
+   font-weight: bold;
+   margin-top: 10px;
+   margin-left: 20px;
+
+   
+}
+.message button{
+    width: 15%;
+    /* background: none; */
+    background-color: white;
+    border: none;
+    margin-left: 15px;
+    border-radius: 20px;
+    
+}
+MdDelete{
+    background:none;
+    font-size: 30px;
+}
+li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.clear-btn{
+    height: 40px;
+    width: 100px;
+    border-radius:20px;
+    background-color: rgb(11, 119, 190);
+    border: none;
+    margin-top: 20px ;
+    margin-left:100px ;
+}.Date{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+    left: 20%;
+}.check{
+    text-decoration: line-through;
+    height: 25px;
+    width: 50%;
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
